@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'quiet_assets'
+gem 'carrierwave'
+gem 'rmagick'
+gem 'figaro'
+gem 'fog'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

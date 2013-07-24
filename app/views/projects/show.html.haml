@@ -31,10 +31,10 @@
 				.span1
 				.span10
 					%h2
-						= params[:phase].capitalize + " Phase"
+						= params[:phase].capitalize + " Phase Doa"
 						%small= link_to 'add post', project_partial_path(@project.id, params[:phase], 'new_post')
 				.span1
-			= if @show_partial then render "projects/show_partials/#{@show_partial}" else render "projects/show_partials/posts"  end
+			= if @show_partial then render "projects/show_partials/#{@show_partial}" end
 
 
 
